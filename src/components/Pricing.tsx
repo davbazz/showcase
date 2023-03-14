@@ -1,6 +1,7 @@
-import self from "../assets/self.svg"
-import classes from "../assets/classes.svg"
-import personal from "../assets/personal.svg"
+import self from "../../public/assets/self.svg"
+import classes from "../../public/assets/classes.svg"
+import personal from "../../public/assets/personal.svg"
+
 
 export default function Pricing() {
     return (

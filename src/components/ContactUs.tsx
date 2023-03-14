@@ -1,4 +1,4 @@
-import contact from "../assets/contact.svg"
+import contact from "../../public/assets/contact.svg"
 
 export default function ContactUs() {
     return (

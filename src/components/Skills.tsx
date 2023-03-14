@@ -1,7 +1,8 @@
-import speaking from "../assets/speaking.svg"
-import writing from "../assets/writing.svg"
-import reading from "../assets/reading.svg"
-import listening from "../assets/listening.svg"
+import speaking from "../../public/assets/speaking.svg"
+import writing from "../../public/assets/writing.svg"
+import reading from "../../public/assets/reading.svg"
+import listening from "../../public/assets/listening.svg"
+
 
 export default function Skills() {
     return (

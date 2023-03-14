@@ -1,5 +1,6 @@
-import MainBg from "../assets/Main-Bg.svg"
-import Bulb from "../assets/Bulb.svg"
+import bulb from "../../public/assets/bulb.svg"
+import mainbg from "../../public/assets/mainbg.svg"
+
 
 export default function Hero() {
     return (
@@ -7,7 +8,7 @@ export default function Hero() {
             <div className="flex flex-col md:flex-row justify-between items-center md:pt-[70px] lg:pt-[90px] md:gap-6 lg:gap-4 mx-auto xl:max-w-[1320px] pb-[30px]">
                 
                 <div className="w-full md:w-1/2 md:order-2">
-                    <img src={MainBg} alt="main bg" className="mx-auto w-full sm:w-[84%] md:w-full md:max-w-[380px] lg:max-w-[460px] xl:max-w-[650px]"/>
+                    <img src={mainbg} alt="main bg" className="mx-auto w-full sm:w-[84%] md:w-full md:max-w-[380px] lg:max-w-[460px] xl:max-w-[650px]"/>
                 </div>
 
                 <div className="w-full md:w-1/2">
@@ -17,7 +18,7 @@ export default function Hero() {
                         </h1>
 
                         <div className="hidden md:inline-block absolute bottom-[-5px] right-[-76px] lg:bottom-[20px] lg:right-[-86px] xl:bottom-[20px] xl:right-[-150px]">
-                            <img src={Bulb} alt="bulb" className="xl:w-[100px] xl:h-[100px]"/>
+                            <img src={bulb} alt="bulb" className="xl:w-[100px] xl:h-[100px]"/>
                         </div>
                     </div>
 

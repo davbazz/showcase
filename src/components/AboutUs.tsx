@@ -1,4 +1,4 @@
-import about from "../assets/about.svg"
+import about from "../../public/assets/about.svg"
 
 export default function AboutUs() {
     return (
