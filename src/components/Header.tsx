@@ -18,11 +18,21 @@ export default function Header() {
 
                     <div className="hidden lg:block text-[#263238] font-[500] text-[16px] xl:text-[20px]">
                         <ul className="flex justify-between items-center gap-6">
-                            <li className="cursor-pointer">Home</li>
-                            <li className="cursor-pointer">Skills</li>
-                            <li className="cursor-pointer">About Us</li>
-                            <li className="cursor-pointer">Pricing</li>
-                            <li className="cursor-pointer">Contacts</li>
+                            <li className="cursor-pointer">
+                                <a href="#home">Home</a>                               
+                            </li>
+                            <li className="cursor-pointer">
+                                <a href="#skills">Skills</a>                               
+                            </li>
+                            <li className="cursor-pointer">
+                                <a href="#about">About Us</a>                               
+                            </li>
+                            <li className="cursor-pointer">
+                                <a href="#pricing">Pricing</a>                               
+                            </li>
+                            <li className="cursor-pointer">
+                                <a href="#contact">Contacts</a>                               
+                            </li>
                         </ul>
                     </div>
                 </nav>
