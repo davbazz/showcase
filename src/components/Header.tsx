@@ -19,8 +19,11 @@ export default function Header() {
           </a>
         </div>
 
-        <nav className="block w-fit cursor-pointer" onClick={openMenu}>
-          <div className="lg:hidden flex flex-col gap-[4px] sm:gap-[6px] md:gap-[4px] cursor-pointer">
+        <nav className="block w-fit cursor-pointer">
+          <div
+            className="lg:hidden flex flex-col gap-[4px] sm:gap-[6px] md:gap-[4px] cursor-pointer"
+            onClick={openMenu}
+          >
             <span className="block w-[34px] sm:w-[42px] md:w-[30px] h-[3px] sm:h-[4px] md:h-[3px] bg-[#39515E] rounded-[1px]" />
             <span className="block w-[34px] sm:w-[42px] md:w-[30px] h-[3px] sm:h-[4px] md:h-[3px] bg-[#39515E] rounded-[1px]" />
             <span className="block w-[24px] sm:w-[30px] md:w-[21px] h-[3px] sm:h-[4px] md:h-[3px] bg-[#39515E] rounded-[1px]" />

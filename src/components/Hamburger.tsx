@@ -19,7 +19,7 @@ export default function Hamburger() {
           </a>
         </div>
         <div
-          className="w-6 h-6 md:w-8 md:h-8 xl:w-10 xl:h-10 2xl:w-12 2xl:h-12 cursor-pointer"
+          className="w-8 h-8 xl:w-10 xl:h-10 2xl:w-12 2xl:h-12 cursor-pointer"
           onClick={closeMenu}
         >
           <svg
